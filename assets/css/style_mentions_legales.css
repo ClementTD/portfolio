@@ -1,0 +1,15 @@
+/* Mise en forme de la page mentions-légales.html */
+*
+{	box-sizing:border-box;
+	margin:0px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#mentions_légales h2
+{   font-size: 3rem;
+    text-align: start;
+}
+#mentions_légales > p
+{   hyphens: auto;
+}
