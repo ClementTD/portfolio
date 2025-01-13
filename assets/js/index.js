@@ -44,7 +44,7 @@ window.addEventListener('DOMContentLoaded', function( ) {
     proj1.addEventListener('click',function( ) {
         infos.setAttribute("style","display:flex");
         titre_proj.innerHTML="RetroK7";
-        details.innerHTML="Le but de ce projet était de réaliser une <strong>web TV</strong> de critique de cinéma dans des conditions de direct.<br>Il s'agit donc d'un rush non monté puisque enregistré en une prise.<br><strong>Le jingle, le logo ainsi que les extraits</strong> ont été préalablement créés par moi sur <strong>After Effects</strong> afin d'être prêts à diffuser le jour J lors du direct.";
+        details.innerHTML="Le but de ce projet était de réaliser une <strong>web TV</strong> de critique de cinéma dans des conditions de direct.<br>Il s'agit donc d'un rush non monté puisque enregistré en une prise.<br><strong>Le jingle, le logo ainsi que les extraits</strong> ont été préalablement créés par moi sur <strong>After Effects</strong> afin d'être prêts à diffuser le jour J lors du direct.<br>(L'extrait visionnable est une ancienne version en attendant l'exportation du produit fini)";
         apercu.innerHTML="<video autoplay loop muted><source src='./assets/video/apercus_real/apercu_retrok7.mp4' type='video/mp4'>";
         lien_proj.removeAttribute("href");
         lien_proj.setAttribute("href","https://youtu.be/Cw0CAZfkeHg?si=gL-8TOt-9n2HnP-p");
@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', function( ) {
     proj2.addEventListener('click',function( ) {
         infos.setAttribute("style","display:flex");
         titre_proj.innerHTML="Reportage - Concours JRE";
-        details.innerHTML="Ce projet a été réalisé dans le cadre du concours <a href='https://jeunesreporters.org/'>Jeunes Reporters pour l'Environnement</a>.<br>Pour parler de la réduction des inégalités, du bien-être et de la santé en lien avec une éducation de qualité, nous avons choisi de produire un <strong>reportage de 3 min</strong> sur l'épicerie solidaire du SCCUC située à Angoulême.<br>J'ai pu m'adonner, de mon côté, à la <strong>post-production</strong> du projet (montage et création des animations).";
+        details.innerHTML="Ce projet a été réalisé dans le cadre du concours <a href='https://jeunesreporters.org/'>Jeunes Reporters pour l'Environnement</a>.<br>Pour parler de la réduction des inégalités, du bien-être et de la santé en lien avec une éducation de qualité, nous avons choisi de produire un <strong>reportage de 3 min</strong> sur l'épicerie solidaire du SCCUC située à Angoulême.<br>J'ai pu m'adonner, de mon côté, à la <strong>post-production</strong> du projet (montage et création des animations).<br>(Projet en cours de finition)";
         apercu.innerHTML="<video autoplay loop muted><source src='./assets/video/apercus_real/apercu_reportageSCCUC.mp4' type='video/mp4'></video>";
         lien_proj.removeAttribute("href");
         lien_proj.setAttribute("href","https://youtu.be/S98SnK4PU5Q?si=wriSihT41-MJShkq");
